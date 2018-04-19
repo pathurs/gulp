@@ -1,6 +1,8 @@
 <!-- front-matter
 id: recommended-modules
 title: Recommended Modules
+hide_title: true
+sidebar_label: Recommended Modules
 -->
 
 # Recommended Modules

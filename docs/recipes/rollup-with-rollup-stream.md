@@ -1,6 +1,8 @@
 <!-- front-matter
 id: rollup-with-rollup-stream
 title: Rollup with Rollup-Stream
+hide_title: true
+sidebar_label: Rollup with Rollup-Stream
 -->
 
 # Rollup with rollup-stream

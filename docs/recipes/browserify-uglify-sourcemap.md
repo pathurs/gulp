@@ -1,6 +1,8 @@
 <!-- front-matter
 id: browserify-uglify-sourcemap
 title: Browserify + Uglify2 with Sourcemaps
+hide_title: true
+sidebar_label: Browserify + Uglify2 with Sourcemaps
 -->
 
 # Browserify + Uglify2 with sourcemaps

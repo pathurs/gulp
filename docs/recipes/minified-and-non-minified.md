@@ -1,6 +1,8 @@
 <!-- front-matter
 id: minified-and-non-minified
 title: Outputting Minified and non-minified
+hide_title: true
+sidebar_label: Outputting Minified and non-minified
 -->
 
 # Output both a minified and non-minified version

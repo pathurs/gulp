@@ -1,6 +1,8 @@
 <!-- front-matter
 id: guidelines
 title: Guidelines
+hide_title: true
+sidebar_label: Guidelines
 -->
 
 # Guidelines

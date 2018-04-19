@@ -1,6 +1,8 @@
 <!-- front-matter
 id: make-stream-from-buffer
 title: Make Stream from Buffer
+hide_title: true
+sidebar_label: Make Stream from Buffer
 -->
 
 # Make stream from buffer (memory contents)

@@ -1,6 +1,8 @@
 <!-- front-matter
 id: run-grunt-tasks-from-gulp
 title: Run Grunt Tasks from Gulp
+hide_title: true
+sidebar_label: Run Grunt Tasks from Gulp
 -->
 
 # Run Grunt Tasks from Gulp

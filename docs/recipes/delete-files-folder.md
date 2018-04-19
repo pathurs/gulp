@@ -1,6 +1,8 @@
 <!-- front-matter
 id: delete-files-folder
 title: Delete files and folders
+hide_title: true
+sidebar_label: Delete files and folders
 -->
 
 # Delete files and folders

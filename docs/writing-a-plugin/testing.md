@@ -1,6 +1,8 @@
 <!-- front-matter
 id: testing
 title: Testing
+hide_title: true
+sidebar_label: Testing
 -->
 
 # Testing

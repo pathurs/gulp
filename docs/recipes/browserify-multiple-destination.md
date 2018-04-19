@@ -1,6 +1,8 @@
 <!-- front-matter
 id: browserify-multiple-destination
-title: Browserify + Globs
+title: Browserify w/ Multiple Destinations
+hide_title: true
+sidebar_label: Browserify w/ Multiple Destinations
 -->
 
 # Browserify + Globs (multiple destination)

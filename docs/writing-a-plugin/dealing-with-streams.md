@@ -1,6 +1,8 @@
 <!-- front-matter
 id: dealing-with-streams
 title: Dealing with Streams
+hide_title: true
+sidebar_label: Dealing with Streams
 -->
 
 # Dealing with streams

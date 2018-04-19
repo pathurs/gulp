@@ -1,6 +1,8 @@
 <!-- front-matter
 id: using-external-config-file
 title: Using External Config File
+hide_title: true
+sidebar_label: Using External Config File
 -->
 
 # Using external config file

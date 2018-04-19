@@ -1,6 +1,8 @@
 <!-- front-matter
 id: running-task-steps-per-folder
 title: Generating a file per Folder
+hide_title: true
+sidebar_label: Generating a file per Folder
 -->
 
 # Generating a file per folder

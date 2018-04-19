@@ -1,6 +1,8 @@
 <!-- front-matter
 id: why-use-pump
 title: Why Use Pump
+hide_title: true
+sidebar_label: Why Use Pump
 -->
 
 # Why Use Pump?

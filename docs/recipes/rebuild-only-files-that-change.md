@@ -1,6 +1,8 @@
 <!-- front-matter
 id: rebuild-only-files-that-change
 title: Rebuild only files that Change
+hide_title: true
+sidebar_label: Rebuild only files that Change
 -->
 
 # Rebuild only files that change

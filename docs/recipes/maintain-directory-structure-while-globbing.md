@@ -1,6 +1,8 @@
 <!-- front-matter
 id: maintain-directory-structure-while-globbing
 title: Maintain Directory Structure while Globbing
+hide_title: true
+sidebar_label: Maintain Directory Structure while Globbing
 -->
 
 # Maintain Directory Structure while Globbing

@@ -1,6 +1,8 @@
 <!-- front-matter
 id: incremental-builds-with-concatenate
 title: Incremental Rebuilding
+hide_title: true
+sidebar_label: Incremental Rebuilding
 -->
 
 # Incremental rebuilding, including operating on full file sets

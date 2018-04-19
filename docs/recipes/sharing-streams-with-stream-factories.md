@@ -1,6 +1,8 @@
 <!-- front-matter
 id: sharing-streams-with-stream-factories
 title: Sharing Streams with Stream Factories
+hide_title: true
+sidebar_label: Sharing Streams with Stream Factories
 -->
 
 # Sharing streams with stream factories

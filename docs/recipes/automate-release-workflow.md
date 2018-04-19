@@ -1,6 +1,8 @@
 <!-- front-matter
 id: automate-release-workflow
 title: Automate Release Workflow
+hide_title: true
+sidebar_label: Automate Release Workflow
 -->
 
 # Automate release workflow

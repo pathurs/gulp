@@ -1,6 +1,8 @@
 <!-- front-matter
 id: only-pass-through-changed-files
 title: Only Pass Through Changed Files
+hide_title: true
+sidebar_label: Only Pass Through Changed Files
 -->
 
 # Only pass through changed files

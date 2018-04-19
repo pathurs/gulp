@@ -1,6 +1,8 @@
 <!-- front-matter
 id: fast-browserify-builds-with-watchify
 title: Fast Browserify builds with Watchify
+hide_title: true
+sidebar_label: Fast Browserify builds with Watchify
 -->
 
 # Fast browserify builds with watchify

@@ -1,6 +1,8 @@
 <!-- front-matter
 id: templating-with-swig-and-yaml-front-matter
 title: Templating with Swig and YAML front-matter
+hide_title: true
+sidebar_label: Templating with Swig and YAML front-matter
 -->
 
 # Templating with Swig and YAML front-matter

@@ -1,6 +1,8 @@
 <!-- front-matter
 id: export-as-tasks
 title: Export as Tasks
+hide_title: true
+sidebar_label: Export as Tasks
 -->
 
 # Exports as Tasks

@@ -1,6 +1,8 @@
 <!-- front-matter
 id: combining-streams-to-handle-errors
 title: Combining Streams to Handle Errors
+hide_title: true
+sidebar_label: Combining Streams to Handle Errors
 -->
 
 # Combining streams to handle errors

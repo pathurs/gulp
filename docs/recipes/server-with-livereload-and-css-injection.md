@@ -1,6 +1,8 @@
 <!-- front-matter
 id: server-with-livereload-and-css-inject
 title: Server with Live-Reloading and CSS Injection
+hide_title: true
+sidebar_label: Server with Live-Reloading and CSS Injection
 -->
 
 # Server with live-reloading and CSS injection

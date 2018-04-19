@@ -1,6 +1,8 @@
 <!-- front-matter
 id: using-buffers
 title: Using Buffers
+hide_title: true
+sidebar_label: Using Buffers
 -->
 
 # Using buffers

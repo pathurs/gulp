@@ -1,6 +1,8 @@
 <!-- front-matter
 id: api
 title: API
+hide_title: true
+sidebar_label: API
 -->
 
 ## gulp API docs

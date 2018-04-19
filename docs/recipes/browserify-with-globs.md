@@ -1,6 +1,8 @@
 <!-- front-matter
 id: browserify-with-globs
 title: Browserify + Globs
+hide_title: true
+sidebar_label: Browserify + Globs
 -->
 
 # Browserify + Globs
