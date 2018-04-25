@@ -1,84 +1,88 @@
 <!-- front-matter
-id: getting-started
-title: Getting Started
+id: quick-start
+title: Quick Start
 hide_title: true
-sidebar_label: Getting Started
+sidebar_label: Quick Start
 -->
+# Quick Start
+> All examples are given for use in the command line on OSX or Linux.
 
-# Getting Started
+If you've previously installed gulp globally, run `npm rm --global gulp` before following these instructions. For more information, read this [Sip][sip-article].
 
-*If you've previously installed gulp globally, run `npm rm --global gulp` before following these instructions.* For more information, read this [Sip](https://medium.com/gulpjs/gulp-sips-command-line-interface-e53411d4467).
-
-#### Check for Node and npm
-Make sure that you've installed Node and npm before attempting to install gulp.
-
+### Check for node, npm, and npx
 ```sh
 node --version
 ```
+![Output: v8.11.1][img-node-version-command]
 ```sh
 npm --version
 ```
+![Output: 5.6.0][img-npm-version-command]
+```sh
+npx --version
+```
+![Output: 9.7.1][img-npx-version-command]
 
-#### Install the `gulp` command
+If they are not installed, follow the instructions [here][node-install].
 
+### Install the gulp command line utility
 ```sh
 npm install --global gulp-cli
 ```
 
-#### Create a `package.json` in your project directory
-If you don't have a package.json, create one. If you need help, run an `npm init` which will walk you through giving it a name, version, description, etc.
 
-
-#### Install `gulp` in your devDependencies
-
-Run this command in your project directory:
-
+### Create a project directory and navigate into it
 ```sh
-npm install --save-dev gulp@next
+npx mkdirp my-project
+```
+```sh
+cd my-project
 ```
 
-#### Create a `gulpfile`
+### Create a package.json file in your project directory
+```sh
+npm init
+```
 
-In your project directory, create a file named `gulpfile.js` in your project root with these contents:
+This will guide you through giving your project a name, version, description, etc.
 
+### Install the gulp package in your devDependencies
+```sh
+npm install --save-dev gulp
+```
+
+### Verify your gulp versions
+```sh
+gulp --version
+```
+![Output: CLI version 2.0.1 & Local version 4.0.0][img-gulp-version-command]
+
+### Create a gulpfile
+Using your text editor, create a file named gulpfile.js in your project root with these contents:
 ```js
-var gulp = require('gulp');
-
-gulp.task('default', defaultTask);
-
 function defaultTask(done) {
-  // place code for your default task here
-  done();
+    // place code for your default task here
+    done();
 }
+
+exports.default = defaultTask
 ```
 
-#### Test it out
-
+### Test it
 Run the gulp command in your project directory:
-
 ```sh
 gulp
 ```
-
 To run multiple tasks, you can use `gulp <task> <othertask>`.
 
-#### Result
+### Result
+The default task will run and do nothing.
+![Output: Starting default & Finished default][img-gulp-command]
 
-Voila! The default task will run and do nothing.
-
-```sh
-Using gulpfile ~/my-project/gulpfile.js
-[11:15:51] Starting 'default'...
-[11:15:51] Finished 'default' after 103 μs
-```
-
-## .src, .watch, .dest, .parallel, .series, CLI args - How do I use these things?
-
-For API specific documentation, you can check out the [documentation for that](API.md).
-
-## Where do I go now?
-
-- [API Documentation](API.md) - The programming interface, defined
-- [Recipes](recipes) - Specific examples from the community
-- [In Depth Help](https://travismaynard.com/writing/getting-started-with-gulp) - A tutorial from the guy who wrote the book
-- [Plugins](https://gulpjs.com/plugins/) - Building blocks for your gulp file
+[sip-article]: https://medium.com/gulpjs/gulp-sips-command-line-interface-e53411d4467
+[node-install]: https://nodejs.org/en/
+[img-node-version-command]: https://gulpjs.com/img/docs-node-version-command.png
+[img-npm-version-command]: https://gulpjs.com/img/docs-npm-version-command.png
+[img-npx-version-command]: https://gulpjs.com/img/docs-npx-version-command.png
+[img-gulp-version-command]: https://gulpjs.com/img/docs-gulp-version-command.png
+[img-gulp-command]: https://gulpjs.com/img/docs-gulp-command.png
