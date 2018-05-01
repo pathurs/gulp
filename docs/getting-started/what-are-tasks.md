@@ -37,4 +37,4 @@ exports.default = series(privateTask, publicTask);
 
 [SCREENSHOT]
 
-<small>In the past, `task()` was used to register your functions as tasks. While that API is still available, exporting should be the primary registration mechanism, except in edge cases where exports won’t work.</small>
+<sub>In the past, `task()` was used to register your functions as tasks. While that API is still available, exporting should be the primary registration mechanism, except in edge cases where exports won’t work.</sub>
