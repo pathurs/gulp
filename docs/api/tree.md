@@ -5,23 +5,23 @@ hide_title: true
 sidebar_label: gulp.tree()
 -->
 
-### gulp.tree(options)
+# `gulp.tree(options)`
 
 Returns the tree of tasks. Inherited from [undertaker]. See the [undertaker docs for this function](https://github.com/phated/undertaker#treeoptions--object).
 
-#### options
+## options
 Type: `Object`
 
 Options to pass to [undertaker].
 
-##### options.deep
+### options.deep
 Type: `Boolean`
 
 Default: `false`
 
 If set to `true` whole tree should be returned.
 
-#### Example gulpfile
+## Example gulpfile
 
 ```js
 gulp.task('one', function(done) {
@@ -51,7 +51,7 @@ gulp.task('five',
 );
 ```
 
-#### Example tree output
+## Example tree output
 
 ```js
 gulp.tree()

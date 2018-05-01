@@ -23,7 +23,7 @@ Or get a task that has been registered.
 var someTask = gulp.task('someTask');
 ```
 
-#### name
+## name
 Type: `String`
 
 If the name is not provided, the task will be named after the function
@@ -33,7 +33,7 @@ If the name is not provided, the task will be named after the function
 Since the task can be run from the command line, you should avoid using
 spaces in task names.
 
-#### fn
+## fn
 
 The function that performs the task's operations. Generally it takes this form:
 
@@ -55,9 +55,9 @@ or a RxJS observable to signal the end of the task.
 if the one of the above strategies is not used to signal completion. However,
 thrown errors will be caught by Gulp.
 
-#### fn properties
+## fn properties
 
-##### fn.name
+### fn.name
 
 `gulp.task` names the task after the function `name` property
 if the optional `name` parameter of `gulp.task` is not provided.
@@ -78,13 +78,13 @@ bar.name = 'bar'
 bar.name === '' // true
 ```
 
-##### fn.displayName
+### fn.displayName
 
 `gulp.task` names the task after the function `displayName` property
 if function is anonymous and the optional `name` parameter of `gulp.task`
 is not provided.
 
-##### fn.description
+### fn.description
 
 gulp-cli prints this description alongside the task name when listing tasks:
 
@@ -105,9 +105,9 @@ $> gulp --tasks
 [12:00:02] └── test  I do nothing
 ```
 
-#### Async support
+## Async support
 
-##### Accept a callback
+### Accept a callback
 
 ```js
 var del = require('del');
@@ -131,7 +131,7 @@ gulp.task('somename', function(cb) {
 The callback accepts an optional `Error` object. If it receives an error,
 the task will fail.
 
-##### Return a stream
+### Return a stream
 
 ```js
 gulp.task('somename', function() {
@@ -141,7 +141,7 @@ gulp.task('somename', function() {
 });
 ```
 
-##### Return a promise
+### Return a promise
 
 ```js
 var Promise = require('promise');
@@ -169,7 +169,7 @@ gulp.task('clean', function() {
 });
 ```
 
-##### Return a child process
+### Return a child process
 
 ```js
 gulp.task('clean', function() {
@@ -178,7 +178,7 @@ gulp.task('clean', function() {
 
 ```
 
-##### Return a [RxJS] observable
+### Return a [RxJS] observable
 
 ```js
 var Observable = require('rx').Observable;

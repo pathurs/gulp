@@ -5,19 +5,19 @@ hide_title: true
 sidebar_label: gulp.lastRun()
 -->
 
-# gulp.lastRun(taskName, [timeResolution])
+# `gulp.lastRun(taskName, [timeResolution])`
 
 Returns the timestamp of the last time the task ran successfully. The time
 will be the time the task started. Returns `undefined` if the task has
 not run yet.
 
-#### taskName
+## taskName
 
 Type: `String`
 
 The name of the registered task or of a function.
 
-#### timeResolution
+## timeResolution
 
 Type: `Number`.
 

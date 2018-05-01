@@ -19,7 +19,7 @@ gulp.src('client/templates/*.pug')
 
 `glob` refers to [node-glob syntax][node-glob] or it can be a direct file path.
 
-#### globs
+## globs
 Type: `String` or `Array`
 
 Glob or array of globs to read. Globs use [node-glob syntax] except that negation is fully supported.
@@ -46,7 +46,7 @@ gulp.src(['*.js', '!b*.js', 'bad.js'])
 **Note:** glob symlink following behavior is opt-in and you must specify
 `follow: true` in the options object that is passed to [node-glob].
 
-#### options
+## options
 Type: `Object`
 
 Options to pass to [node-glob] through [glob-stream].
@@ -54,7 +54,7 @@ Options to pass to [node-glob] through [glob-stream].
 gulp adds some additional options in addition to the
 [options supported by node-glob][node-glob documentation] and [glob-stream]:
 
-##### options.cwd
+### options.cwd
 
 The working directory the folder is relative to.
 
@@ -63,7 +63,7 @@ Type: `String`
 Default: `process.cwd()`
 
 
-##### options.buffer
+### options.buffer
 Type: `Boolean`
 
 Default: `true`
@@ -73,7 +73,7 @@ buffer files. This is useful when working with large files.
 
 **Note:** Plugins might not implement support for streams.
 
-##### options.read
+### options.read
 Type: `Boolean`
 
 Default: `true`
@@ -81,7 +81,7 @@ Default: `true`
 Setting this to `false` will return `file.contents` as null and not read
 the file at all.
 
-##### options.base
+### options.base
 Type: `String`
 
 Default: everything before a glob starts (see [glob-parent])
@@ -99,13 +99,13 @@ gulp.src('client/js/**/*.js', { base: 'client' })
   .pipe(gulp.dest('build'));  // Writes 'build/js/somedir/somefile.js'
 ```
 
-##### options.since
+### options.since
 Type: `Date` or `Number`
 
 Setting this to a Date or a time stamp will discard any file that have not been
 modified since the time specified.
 
-##### options.passthrough
+### options.passthrough
 Type: `Boolean`
 
 Default: `false`
@@ -113,7 +113,7 @@ Default: `false`
 If true, it will create a duplex stream which passes items through and
 emits globbed files.
 
-##### options.allowEmpty
+### options.allowEmpty
 Type: `Boolean`
 
 Default: `false`

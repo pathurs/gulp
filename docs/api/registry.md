@@ -5,7 +5,7 @@ hide_title: true
 sidebar_label: gulp.registry()
 -->
 
-### gulp.registry([registry])
+# `gulp.registry([registry])`
 
 Get or set the underlying task registry. Inherited from [undertaker]; see the undertaker documention on [registries](https://github.com/phated/undertaker#registryregistryinstance). Using this, you can change registries that enhance gulp in different ways. Utilizing a custom registry has at least three use cases:
 
@@ -15,11 +15,11 @@ Get or set the underlying task registry. Inherited from [undertaker]; see the un
 
 To build your own custom registry see the [undertaker documentation on custom registries](https://github.com/phated/undertaker#custom-registries).
 
-#### registry
+## registry
 
 A registry instance. When passed in, the tasks from the current registry will be transferred to the new registry and then current registry will be replaced with the new registry.
 
-#### Example
+## Example
 
 This example shows how to create and use a simple custom registry to add tasks.
 

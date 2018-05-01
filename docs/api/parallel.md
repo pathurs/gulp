@@ -33,7 +33,7 @@ gulp.task('default', gulp.parallel('one', 'two', function(done) {
 }));
 ```
 
-#### tasks
+## tasks
 Type: `Array`, `String` or `Function`
 
 A task name, a function or an array of either.

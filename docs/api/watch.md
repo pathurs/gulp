@@ -18,12 +18,12 @@ gulp.watch('js/**/*.js', gulp.parallel('concat', 'uglify'));
 In the example, `gulp.watch` runs the function returned by `gulp.parallel` each
 time a file with the `js` extension in `js/` is updated.
 
-#### globs
+## globs
 Type: `String` or `Array`
 
 A path string, an array of path strings, a [glob][node-glob] string or an array of [glob][node-glob] strings that indicate which files to watch for changes.
 
-#### opts
+## opts
 Type: `Object`
 
 * `delay` (milliseconds, default: `200`). The delay to wait before triggering the fn. Useful for waiting on many changes before doing the work on changed files, e.g. find-and-replace on many files.
@@ -49,7 +49,7 @@ have a slight performance penalty.
 
 Read about the full set of options in [`chokidar`'s README][chokidar].
 
-#### fn
+## fn
 Type: `Function`
 
 If the `fn` is passed, it will be called when the watcher emits a `change`, `add` or `unlink` event. It is automatically debounced with a default delay of 200 milliseconds and subsequent calls will be queued and called upon completion. These defaults can be changed using the `options`.
@@ -76,29 +76,29 @@ watcher.on('unlink', function(path) {
 });
 ```
 
-##### path
+### path
 Type: `String`
 
 Path to the file. If `opts.cwd` is set, `path` is relative to it.
 
-##### stats
+### stats
 Type: `Object`
 
 [File stats][fs stats] object when available.
 Setting the `alwaysStat` option to `true` will ensure that a file stat object will be
 provided.
 
-#### watcher methods
+## watcher methods
 
-##### watcher.close()
+### watcher.close()
 
 Shuts down the file watcher.
 
-##### watcher.add(glob)
+### watcher.add(glob)
 
 Watch additional glob (or array of globs) with an already-running watcher instance.
 
-##### watcher.unwatch(glob)
+### watcher.unwatch(glob)
 
 Stop watching a glob (or array of globs) while leaving the watcher running and
 emitting events for the remaining paths it is watching.
