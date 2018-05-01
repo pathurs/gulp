@@ -13,8 +13,8 @@ Each gulp task is an asynchronous JavaScript function - a function that accepts 
 
 Tasks can be considered **public** or **private**.
 
-* **Public tasks** are tasks exported from your gulpfile, which allows them to be run by the `gulp` command.
-* **Private tasks** are tasks that are made to be used internally, usually used as part of `series()` or `parallel()` composition.
+* **Public tasks** are exported from your gulpfile, which allows them to be run by the `gulp` command.
+* **Private tasks** are made to be used internally, usually used as part of `series()` or `parallel()` composition.
 
 A private task looks and acts like any other task, but an end-user can’t ever execute it independently.  To register a task publicly, export it from your gulpfile.
 
@@ -37,4 +37,4 @@ exports.default = series(privateTask, publicTask);
 
 [SCREENSHOT]
 
-> In the past, `task()` was used to register your functions as tasks. While that API is still available, exporting should be the primary registration mechanism, except in edge cases where exports won’t work.
+_In the past, `task()` was used to register your functions as tasks. While that API is still available, exporting should be the primary registration mechanism, except in edge cases where exports won’t work._
