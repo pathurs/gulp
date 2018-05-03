@@ -47,6 +47,7 @@ exports.default = series(clean, build);
 
 Gulp provides two powerful composition methods, `series()` and `parallel()`, allowing individual tasks to be composed into larger operations. Both methods accept any number of task functions or composed operations.  `series()` and `parallel()` can be nested within themselves or each other to any depth.
 
+
 To have your tasks execute in order, use the `series()` method.
 ```js
 const { series } = require('gulp');
