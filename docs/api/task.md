@@ -1,8 +1,8 @@
 <!-- front-matter
-id: api-gulp-task
-title: gulp.task()
+id: api-task
+title: task()
 hide_title: true
-sidebar_label: gulp.task()
+sidebar_label: task()
 -->
 
 # `gulp.task([name,] fn)`

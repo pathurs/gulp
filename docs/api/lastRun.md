@@ -1,8 +1,8 @@
 <!-- front-matter
-id: api-gulp-lastRun
-title: gulp.lastRun()
+id: api-lastRun
+title: lastRun()
 hide_title: true
-sidebar_label: gulp.lastRun()
+sidebar_label: lastRun()
 -->
 
 # `gulp.lastRun(taskName, [timeResolution])`

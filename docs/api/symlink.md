@@ -1,8 +1,8 @@
 <!-- front-matter
-id: api-gulp-symlink
-title: gulp.symlink()
+id: api-symlink
+title: symlink()
 hide_title: true
-sidebar_label: gulp.symlink()
+sidebar_label: symlink()
 -->
 
 # `gulp.symlink(folder[, options])`

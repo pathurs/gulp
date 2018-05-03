@@ -1,8 +1,8 @@
 <!-- front-matter
-id: api-gulp-dest
-title: gulp.dest()
+id: api-dest
+title: dest()
 hide_title: true
-sidebar_label: gulp.dest()
+sidebar_label: dest()
 -->
 
 # `gulp.dest(path[, options])`

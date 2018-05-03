@@ -1,8 +1,8 @@
 <!-- front-matter
-id: api-gulp-parallel
-title: gulp.parallel()
+id: api-parallel
+title: parallel()
 hide_title: true
-sidebar_label: gulp.parallel()
+sidebar_label: parallel()
 -->
 
 # `gulp.parallel(...tasks)`

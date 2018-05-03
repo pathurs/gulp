@@ -1,8 +1,8 @@
 <!-- front-matter
-id: api-gulp-watch
-title: gulp.watch()
+id: api-watch
+title: watch()
 hide_title: true
-sidebar_label: gulp.watch()
+sidebar_label: watch()
 -->
 
 # `gulp.watch(globs[, opts][, fn])`

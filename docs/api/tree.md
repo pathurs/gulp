@@ -1,8 +1,8 @@
 <!-- front-matter
-id: api-gulp-tree
-title: gulp.tree()
+id: api-tree
+title: tree()
 hide_title: true
-sidebar_label: gulp.tree()
+sidebar_label: tree()
 -->
 
 # `gulp.tree(options)`

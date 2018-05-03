@@ -1,8 +1,8 @@
 <!-- front-matter
-id: api-gulp-series
-title: gulp.series()
+id: api-series
+title: series()
 hide_title: true
-sidebar_label: gulp.series()
+sidebar_label: series()
 -->
 
 # `gulp.series(...tasks)`

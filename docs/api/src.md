@@ -1,8 +1,8 @@
 <!-- front-matter
-id: api-gulp-src
-title: gulp.src()
+id: api-src
+title: src()
 hide_title: true
-sidebar_label: gulp.src()
+sidebar_label: src()
 -->
 
 # `gulp.src(globs[, options])`

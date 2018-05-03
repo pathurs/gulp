@@ -1,8 +1,8 @@
 <!-- front-matter
-id: api-gulp-registry
-title: gulp.registry()
+id: api-registry
+title: registry()
 hide_title: true
-sidebar_label: gulp.registry()
+sidebar_label: registry()
 -->
 
 # `gulp.registry([registry])`
