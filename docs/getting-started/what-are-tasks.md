@@ -19,22 +19,29 @@ Tasks can be considered **public** or **private**.
 A private task looks and acts like any other task, but an end-user can’t ever execute it independently.  To register a task publicly, export it from your gulpfile.
 
 ```js
-var { series } = require('gulp');
+const { series } = require('gulp');
 
-function privateTask(cb) {
+// The `clean` function is not exported so it can be considered a private task.
+// It can still be used within the `series()` composition.
+function clean(cb) {
   // body omitted
   cb();
 }
 
-function publicTask(cb) {
+// The `build` function is exported so it is public and can be run with the `gulp` command.
+// It can also be used within the `series()` composition.
+function build(cb) {
   // body omitted
   cb();
 }
 
-exports.build = publicTask;
-exports.default = series(privateTask, publicTask);
+exports.build = build;
+exports.default = series(clean, build);
 ```
 
-[SCREENSHOT]
+![ALT TEXT MISSING][img-gulp-tasks-command]
 
 <small>In the past, `task()` was used to register your functions as tasks. While that API is still available, exporting should be the primary registration mechanism, except in edge cases where exports won’t work.</small>
+
+
+[img-gulp-tasks-command]: https://gulpjs.com/img/docs-gulp-tasks-command.png
